@@ -1,5 +1,5 @@
 import images from "../data/images";
-import ImageCard from "./imagecard";
+import ImageCard from "./ImageCard";
 
 function Gallery({ searchTerm,selectedCategory,setSelectedImage})
 
