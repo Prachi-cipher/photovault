@@ -1,5 +1,5 @@
 import images from "../data/images";
-import ImageCard from "./ImageCard";
+import Imagecard from "./Imagecard";
 
 function Gallery({ searchTerm,selectedCategory,setSelectedImage})
 
@@ -29,7 +29,7 @@ function Gallery({ searchTerm,selectedCategory,setSelectedImage})
   return (
     <div id="gallery" className="gallery">
       {filteredImages.map((img) => (
-        <ImageCard
+        <Imagecard
           key={img.id}
           image={img}
           setSelectedImage={setSelectedImage}

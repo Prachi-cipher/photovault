@@ -1,4 +1,4 @@
-function ImageCard({
+function Imagecard({
   image,
   setSelectedImage,
 }) {
@@ -20,4 +20,4 @@ function ImageCard({
   );
 }
 
-export default ImageCard;
+export default Imagecard;
